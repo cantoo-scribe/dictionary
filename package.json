@@ -1,0 +1,20 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "Generate definitions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "downloadModel": "node scripts/downloadModel.js"
+  },
+  "author": "Cantoo",
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/hub": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "node-llama-cpp": "^3.7.0"
+  }
+}
